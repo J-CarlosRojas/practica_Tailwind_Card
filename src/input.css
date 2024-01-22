@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn_primary{
+        @apply flex w-fit p-4 px-6 border text-red-800 font-medium rounded-full hover:bg-red-900 hover:text-white
+    }
+}
